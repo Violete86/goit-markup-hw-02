@@ -5,8 +5,11 @@ body {
 .logo {
     color: #2196F3;
 }
+.current {
+    color: #2196F3;
+}
 .list {
-    li
+    list-style: none;
 }
 
 
