@@ -1,9 +1,13 @@
-body {
-    color: #757575;
-    background-color: FFFFFF;
-}
-.logo {
-    color: #2196F3;
+
+
+.link {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0,02em;
 }
 .current {
     color: #2196F3;
@@ -12,7 +16,32 @@ body {
     list-style: none;
 }
 
-
+body {
+    color: #757575;
+    background-color: FFFFFF;
+}
+/* header */
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.logo-wrap {
+    color: #000000;
+}
+.nav-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
 
 /* колір logo #000000; black*/
 /* колір акцент #2196F3; blue*/
