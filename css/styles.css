@@ -77,8 +77,19 @@ body {
     padding: 10px 32px;
     color: #FFFFFF;
 }
+.features {
+    background: #F5F5F5;
+}
 .section-tittle {
-
+}
+.features-tittle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
 }
 .crew {
     background: #F5F4FA;
