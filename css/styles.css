@@ -77,6 +77,14 @@ body {
 .footer {
     background: #2F303A;
 }
+.address {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
 /* колір logo #000000; black*/
 /* колір акцент #2196F3; blue*/
 /* колір основного тексту 757575 */
