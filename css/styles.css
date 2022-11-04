@@ -91,10 +91,25 @@ body {
     text-transform: uppercase;
     color: #212121;
 }
+.service-tittle {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
 .crew {
     background: #F5F4FA;
 }
 .crew-tittle {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+     color: #212121;
 
 }
 .crew-name {
