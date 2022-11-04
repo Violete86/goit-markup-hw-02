@@ -17,7 +17,7 @@
 
 body {
     color: #757575;
-    background-color: FFFFFF;
+    background-color: #F5F5F5;;
 }
 /* header */
 .nav {
@@ -71,7 +71,9 @@ body {
 .section-tittle {
 
 }
-
+.crew {
+    background: #F5F4FA;
+}
 /* колір logo #000000; black*/
 /* колір акцент #2196F3; blue*/
 /* колір основного тексту 757575 */
