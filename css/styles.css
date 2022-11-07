@@ -14,14 +14,14 @@
     --footer-bg-color: #2F303A;
 }
 body {
-    font-family: Roboto; sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal; 
     color: var(--primary-text-color);
 }
 /* Шапка */
 .nav {
     background: var(--header-bg-color);
-    font-family: Roboto;
+    font-family: 'Roboto';
 }
 .logo {
     font-family: Raleway;
