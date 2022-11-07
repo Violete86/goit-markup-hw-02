@@ -12,7 +12,25 @@
     --crew-bg-color: #F5F4FA;
 
     --footer-bg-color: #2F303A;
-    }
+}
+body {
+    font-family: Roboto; sans-serif;
+    font-style: normal; 
+    color: var(--primary-text-color);
+}
+/* Шапка */
+.nav {
+    background: var(--header-bg-color);
+    font-family: Roboto;
+}
+.logo {
+    font-family: Raleway;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.24;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
 }
 .link {
     text-decoration: none;
@@ -20,33 +38,13 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0,02em;
-}
- 
-.list {
-    list-style: none;
-}
-
-body {
-    font-family: Roboto;
-    font-style: normal;
-    color: var(--primary-text-color);
-}
-/* header */
-.nav {
-    background: var(--header-bg-color);
-    font-family: Roboto;
-}
-.logo {
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.24;
-    letter-spacing: 0.03em;
-    color: var(--accent-color);
+    letter-spacing: 0, 02em;
 }
 .logo-wrap {
     color: var(--logo-text-color);
+}
+.list {
+    list-style: none;
 }
 .nav-link {
     font-weight: 500;
@@ -59,9 +57,6 @@ body {
 .nav-link:focus {
     color: var(--accent-color);
 }
-/* .nav-link:focus {
-    color: var(--accent-color);
-} */
 .current {
     color: var(--accent-color);
 }
@@ -76,7 +71,7 @@ body {
 .nav-cont:focus {
     color: var(--accent-color);
 }
-/* hero */
+/* Герой */
 .hero {
     background: var(--hero-bg-color);
     font-weight: 900;
@@ -88,7 +83,7 @@ body {
     color: var(--hero-footer-logo-color);
 }
 .hero-button {
-    font-family: Roboto;
+    font-family: inherit;
     font-style: normal;
     font-family: var(--hero-footer-logo-color);
     font-weight: 700;
@@ -159,6 +154,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
+/* Футер */
 .footer {
     background: var(--footer-bg-color);
 }
@@ -190,14 +186,35 @@ body {
 
 
 /* Стилі для Портфоліо */
-
-/* колір logo #000000; black*/
-/* колір акцент #2196F3; blue*/
-/* колір основного тексту 757575 */
-/* колір тексту #212121;*/
-/* колір заголовка білий #FFFFFF*/
-/* вториенний колір шапки rgba(255, 255, 255, 0.6);*/
-/* колір хедера FFFFFF */
-/* колір сторінки  F5F5F5*/
- /* колір портфоліо F5F4FA */
- /* колір футера 2F303A */
+.portfolio-button {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--h2-h3-link-color);
+    background: var(--crew-bg-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+    background: var(--accent-color);
+    color: var(--header-bg-color);
+}
+.portfolio-tittle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--h2-h3-link-color);
+}
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}

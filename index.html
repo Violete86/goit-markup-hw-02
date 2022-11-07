@@ -71,9 +71,9 @@
       <section class="service">
         <h2 class="service-tittle">Чим ми займаємося</h2>
         <ul class="service list">
-          <li><img src="./photo/PC.jpg" alt="Людина працює над кодом" width="370" /></li>
-          <li><img src="./photo/phone.jpg" alt="Людина тестує смартфон" width="370" /></li>
-          <li><img src="./photo/colour.jpg" alt="Людина підбирвє колір по кольоровій таблиці" width="370" /></li>
+          <li><img src="./photo/PC.jpg" alt="Людина працює над кодом" width="370" height="294" /></li>
+          <li><img src="./photo/phone.jpg" alt="Людина тестує смартфон" width="370" height="294"/></li>
+          <li><img src="./photo/colour.jpg" alt="Людина підбирвє колір по кольоровій таблиці" width="370" height="294" /></li>
         </ul>
       </section>
       <!--Наша команда-->
@@ -81,22 +81,22 @@
         <h2 class="crew-tittle">Наша команда</h2>
         <ul class="crew list">
           <li>
-            <img src="./photo/Ihor.jpg" alt="Ihor's photo" width="270" />
+            <img src="./photo/Ihor.jpg" alt="Ihor's photo" width="270" height="260"/>
             <h3 class="crew-name">Ігор Дем'яненко</h3>
             <p class="crew-position">Product Designer</p>
           </li>
           <li>
-            <img src="./photo/Olha.jpg" alt="Olga's photo" width="270" />
+            <img src="./photo/Olha.jpg" alt="Olga's photo" width="270" height="260" />
             <h3 class="crew-name">Ольга Рєпіна</h3>
             <p class="crew-position">Frontend Developer</p>
           </li>
           <li>
-            <img src="./photo/Mykola.jpg" alt="Mykola's photo" width="270" />
+            <img src="./photo/Mykola.jpg" alt="Mykola's photo" width="270" height="260" />
             <h3 class="crew-name">Микола Тарасов</h3>
             <p class="crew-position">Marketing</p>
           </li>
           <li>
-            <img src="./photo/Mykhailo.jpg" alt="Mykhailo's photo" width="270" />
+            <img src="./photo/Mykhailo.jpg" alt="Mykhailo's photo" width="270" height="260"/>
             <h3 class="crew-name">Михайло Єрмаков</h3>
             <p class="job-tittle">UI Designer</p>
           </li>
@@ -118,24 +118,3 @@
 </html>
 
 
-1. Текстовий контент стилізуємо чітко згідно з макетом. Тобто верстаємо не на око, а ретельно звіряємо з макетом усі
-характеристики шрифтів: колір, розмір, жирність, висоту рядка та інше. Не забуваємо, що браузер по дефолту стилізує
-деякі елементи, і ця стилізація візуально може бути дуже схожою на ту, що вам потрібна (наприклад, по дефолту може бути
-схожий на правильний розмір шрифту або жирність). Але ми все одно звіряємось. Також будьте уважні: line-height маємо
-задавати у вигляді множника (а не просто скопіювати пікселі), letter-spacing - в одиницях виміру em.
-
-
-
-6. Не забуваємо про ховер/фокус для інтерактивних елементів.
-
-
-9. На сторінці з портфоліо кнопки-фільтри (використовуйте для них тег button) та картки портфоліо – це 2 списки,
-загорнуті в загальну секцію (2 окремі секції виділяти НЕ потрібно).
-10. Усі кольори тексту та кольори фону, що перевикористовуються, виносимо у змінні. При цьому дублювати кольори
-(створювати різні змінні під той самий колір) не потрібно.
-11. Коли прописуєте css правила для елементів, не пишіть зайвого. Наприклад, сімейство шрифтів roboto достатньо один раз
-задати для body, а далі тільки перезаписувати цю властивість по необхідності (зокрема, для логотипу). Зверніть увагу, що
-елементи форми (вас цікавлять на даному етапі кнопки) властивість font-family за умовчанням не успадковують, тобто для
-них потрібно задати явно - font-family: inherit. Також ви часто для всіх елементів прописуєте font-style: normal, але це
-дефолтне значення. Задавайте цю властивість лише тоді, коли її потрібно перевизначити (це вимагається для тега address,
-про що вже згадувалось вище).
